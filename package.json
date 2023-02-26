@@ -1,0 +1,44 @@
+{
+  "name": "game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@firebase/app": "^0.9.3",
+    "@firebase/database": "0.14.1",
+    "@mui/material": "^5.11.4",
+    "@tauri-apps/api": "^1.2.0",
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.3",
+    "daisyui": "^2.46.1",
+    "dayjs": "^1.11.7",
+    "embla-carousel-react": "^7.0.5",
+    "firebase": "^9.17.1",
+    "postcss": "^8.4.21",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-cursor-custom": "^1.2.4",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.6.1",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3",
+    "@types/node": "^18.7.10",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^3.0.0",
+    "tailwindcss-no-scrollbar": "^1.0.1",
+    "typescript": "^4.6.4",
+    "vite": "^4.0.0"
+  }
+}
